@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+.add {
+  padding: 5px 30px;
+  border-radius: 2px;
+  outline: none !important;
+  border: none;
+  color: white;
+  background-color: rgba(32, 176, 233, 0.753);
+  cursor: pointer;
+}
+.logo {
+  margin: 5px 0px;
+  color: white;
+}
+.js {
+  color: yellow;
+}
+.crude {
+  color: rgba(0, 0, 0, 0.521);
+}
+.Add_div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.error {
+  color: #f56a79;
+  font-size: small;
+}
+::placeholder {
+  color: #0000006e !important;
+}
+
+#edit {
+  padding-right: 20px;
+  cursor: pointer;
+}
+#delete {
+  cursor: pointer;
+}
+#header {
+  text-align: center;
+}
+.header {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    margin: 0%;
+    padding: 0%;
+    width: fit-content;
+  }
+  .add {
+    margin-top: 50px;
+    margin-left: 254px;
+  }
+  .Add_div {
+    margin-right: 250px;
+  }
+}
